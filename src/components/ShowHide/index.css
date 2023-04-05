@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 34px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn-button {
+  height: 32px;
+  width: 140px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #dd1264;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.second {
+  margin-left: 40px;
+}
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.second-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.special-container {
+  background-color: #fddddb;
+  color: black;
+  height: 70px;
+  width: 160px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border-radius: 8px;
+}
+.right {
+  margin-left: 40px;
+  margin-top: 90px;
+}
